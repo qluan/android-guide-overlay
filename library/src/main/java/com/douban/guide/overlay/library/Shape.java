@@ -44,12 +44,12 @@ public interface Shape {
 
         @Override
         public float getTop() {
-            return x - radius;
+            return y - radius;
         }
 
         @Override
         public float getBottom() {
-            return x + radius;
+            return y + radius;
         }
 
     }
